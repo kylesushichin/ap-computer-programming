@@ -16,9 +16,12 @@ public class Box
 	}
 	public String getFull() 
 	{
-		if(full = true){
+		if(full = true)
+		{
 			return "Yes";
-		}else{
+		}
+		else
+		{
 			return "No";
 		}
 	}

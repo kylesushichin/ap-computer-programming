@@ -16,11 +16,7 @@ public class Die
 	
 	public void setFaceValue(int value) 
 	{
-		if(value < MAX && value > 0)
-		{
-			faceValue = value;
-		}
-		
+		faceValue = value;
 	}
 	public int getFaceValue()
 	{

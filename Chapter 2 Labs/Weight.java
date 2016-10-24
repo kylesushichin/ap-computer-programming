@@ -1,6 +1,8 @@
 import java.util.Scanner;
-public class Weight {
-	public static void main(String[]args) {
+public class Weight 
+{
+	public static void main(String[]args) 
+	{
 		Scanner input = new Scanner(System.in);
 		final int maleStart = 106, fmaleStart = 100;
 		int ft, inch, height;
