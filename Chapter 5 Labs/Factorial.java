@@ -16,8 +16,8 @@ public class Factorial
         }
         while (counter<=n && n!=0 && n>0)
         {
-            counter++;
-            sum *= counter - 1;
+            n--;
+            sum *= n - 1;
             if ( counter == n) 
             {
                     System.out.println("The factorial for " + n + " ! = " + sum);
@@ -34,7 +34,7 @@ public class Factorial
             }
             while (counter<=n && n!=0 && n>0)
             {
-                counter++;
+                n--;
                 sum *= counter - 1;
                 if ( counter == n) 
                 {

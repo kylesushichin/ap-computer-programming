@@ -20,7 +20,6 @@ public class Die
 		{
 			faceValue = value;
 		}
-		
 	}
 	public int getFaceValue()
 	{

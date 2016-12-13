@@ -30,14 +30,14 @@ public class BaseballStats
   while( fileScan.hasNext())
   {
    fileName = fileScan.nextLine();
-   System.out.println("fileName" + fileName);
+   System.out.println("fileName: " + fileName);
    
    lineScan = new Scanner(fileName);
    lineScan.useDelimiter(",");
    
    while ( lineScan.hasNext())
    {
-    System.out.println("    " + lineScan.hasNext());
+    System.out.println("    " + lineScan.next());
    }
    System.out.println();
   }
