@@ -47,4 +47,16 @@ public class ReboundPanel extends JPanel
             repaint();
         }
     }
+    public void start()
+    {
+        timer.start();
+    }
+    public void stop()
+    {
+        timer.stop();
+    }
+    public boolean isMoving()
+    {
+        return timer.isRunning();
+    }
 }
